@@ -265,6 +265,22 @@
     font-size: 14px;
 }
 
+.footer-hora-cont{
+    margin: 0 0 5px 0;
+}
+
+.footer-hora-title{
+    padding: 0px 5px 0 0;
+}
+.footer-hora-title p{
+    font-size: 13px;
+}
+
+.footer-hora-text{}
+.footer-hora-text p{
+    font-size: 13px;
+}
+
 .footer-mapa{
     width: 210px;
     height: 125px;
@@ -342,7 +358,8 @@
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1125px){
+
     .footer-cont {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px 0px;
@@ -355,7 +372,8 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 870px){
+
     .footer-cont {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -367,9 +385,11 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 590px){
+
     .footer-cont {
         grid-template-columns: repeat(1, 1fr);
+        padding: 35px 25px;
     }
 }
 
