@@ -117,6 +117,16 @@
     height: 38vh;
 }
 
+.header-cont::after {
+    content: "";
+    position: absolute;
+    background: url(../../source/img/separador.png);
+    width: 100%;
+    overflow: hidden;
+    height: 76px;
+    transform: translate(0, -33px);
+}
+
 .header-title{
     align-items: flex-end;
     padding: 50px 65px;
@@ -133,8 +143,8 @@
 
 
 /*-----como-comprar-----*/
-.como-comprar{
-    margin: 85px 0 0 0;
+.como-comprar {
+    margin: 70px 0 0 0;
 }
 .como-comprar-cont{
     padding: 0px 230px;

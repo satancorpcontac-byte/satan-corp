@@ -117,6 +117,16 @@
     height: 38vh;
 }
 
+.header-cont::after {
+    content: "";
+    position: absolute;
+    background: url(../../source/img/separador.png);
+    width: 100%;
+    overflow: hidden;
+    height: 76px;
+    transform: translate(0, -33px);
+}
+
 .header-title{
     align-items: flex-end;
     padding: 50px 65px;
