@@ -16,7 +16,7 @@
     transition: .4s;
 }
 
-.nav-bg-act > .logo {
+.nav-bg-act > a > .logo {
     width: 90px;
     transition: .4s;
 }
