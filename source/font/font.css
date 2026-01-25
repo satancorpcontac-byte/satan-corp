@@ -17,3 +17,13 @@
     font-family: letra-dec;
     src: url(decoracion.ttf);
 }
+
+@font-face {
+    font-family: letra-titulo-chica;
+    src: url(letra-titulo-chica.ttf);
+}
+
+@font-face {
+    font-family: letra-titulo-grande;
+    src: url(letra-titulo-grande.ttf);
+}

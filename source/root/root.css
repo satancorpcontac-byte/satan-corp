@@ -106,6 +106,14 @@ body{
     font-family: letra-dec;
 }
 
+.letra-titulo-chica{
+    font-family: letra-titulo-chica;
+}
+
+.letra-titulo-grande{
+    font-family: letra-titulo-grande;
+}
+
 .color-blanco{
     color: #fff;
 }

@@ -87,6 +87,7 @@
 
 .nav-menu-list-cont:hover > .nav-menu-list-item:hover{
     opacity: 1;
+    filter: drop-shadow(0px 0px 8px #ffffff61);
 }
 
 .nav-menu-item{
